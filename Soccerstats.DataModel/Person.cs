@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Soccerstats.Data
+namespace SoccerStats.DataModel
 {
     public abstract class Person
     {
