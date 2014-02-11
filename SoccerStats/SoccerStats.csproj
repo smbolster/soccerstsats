@@ -264,10 +264,6 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Soccerstats.DataModel\Soccerstats.DataModel.csproj">
-      <Project>{439c2390-7b0f-443f-8715-d823c559b9e3}</Project>
-      <Name>Soccerstats.DataModel</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SoccerStats.Data\SoccerStats.Data.csproj">
       <Project>{475112f8-c1da-41d9-8e1d-f6c92fa13338}</Project>
       <Name>SoccerStats.Data</Name>

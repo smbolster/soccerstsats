@@ -5,8 +5,6 @@ VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoccerStats", "SoccerStats\SoccerStats.csproj", "{39559141-674D-403D-84B0-CFDDCBBB1625}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soccerstats.DataModel", "Soccerstats.DataModel\Soccerstats.DataModel.csproj", "{439C2390-7B0F-443F-8715-D823C559B9E3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoccerStats.Data", "SoccerStats.Data\SoccerStats.Data.csproj", "{475112F8-C1DA-41D9-8E1D-F6C92FA13338}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoccerStats.Console_App", "SoccerStats.Console_App\SoccerStats.Console_App.csproj", "{1A543947-4EC7-48DA-B802-B481F4899ABD}"
@@ -23,10 +21,6 @@ Global
 		{39559141-674D-403D-84B0-CFDDCBBB1625}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39559141-674D-403D-84B0-CFDDCBBB1625}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39559141-674D-403D-84B0-CFDDCBBB1625}.Release|Any CPU.Build.0 = Release|Any CPU
-		{439C2390-7B0F-443F-8715-D823C559B9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{439C2390-7B0F-443F-8715-D823C559B9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{439C2390-7B0F-443F-8715-D823C559B9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{439C2390-7B0F-443F-8715-D823C559B9E3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{475112F8-C1DA-41D9-8E1D-F6C92FA13338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{475112F8-C1DA-41D9-8E1D-F6C92FA13338}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{475112F8-C1DA-41D9-8E1D-F6C92FA13338}.Release|Any CPU.ActiveCfg = Release|Any CPU
