@@ -4,12 +4,15 @@ using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SoccerStats.DataModel;
+using SoccerStats.DataMod;
 
 namespace SoccerStats.Data
 {
-    class Context : DbContext
+    public class Context : DbContext
     {
+        public Context()
+            : base()
+        { }
         public DbSet<League> Leagues { get; set; }
         public DbSet<Team> Teams { get; set; }
         public DbSet<Player> Players { get; set; }
