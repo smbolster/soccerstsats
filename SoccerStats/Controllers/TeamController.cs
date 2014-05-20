@@ -5,7 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using SoccerStats.Data;
-using SoccerStats.DataModel;
+using SoccerStats.DataModels;
 
 
 namespace SoccerStats.Controllers

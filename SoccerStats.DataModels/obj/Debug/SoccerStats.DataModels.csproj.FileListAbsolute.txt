@@ -1,0 +1,5 @@
+C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.DataModels\bin\Debug\SoccerStats.DataModels.dll
+C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.DataModels\bin\Debug\SoccerStats.DataModels.pdb
+C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.DataModels\obj\Debug\SoccerStats.DataModels.csprojResolveAssemblyReference.cache
+C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.DataModels\obj\Debug\SoccerStats.DataModels.dll
+C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.DataModels\obj\Debug\SoccerStats.DataModels.pdb

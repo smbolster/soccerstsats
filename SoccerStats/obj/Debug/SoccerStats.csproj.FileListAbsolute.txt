@@ -63,5 +63,5 @@ C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats\bin\Microsoft.Owin.Secur
 C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats\bin\System.Web.Http.Owin.xml
 C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats\obj\Debug\SoccerStats.dll
 C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats\obj\Debug\SoccerStats.pdb
-C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats\bin\SoccerStats.DataModel2.dll
-C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats\bin\SoccerStats.DataModel2.pdb
+C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats\bin\SoccerStats.DataModels.dll
+C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats\bin\SoccerStats.DataModels.pdb

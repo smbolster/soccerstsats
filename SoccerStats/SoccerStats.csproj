@@ -194,12 +194,6 @@
     </Compile>
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\Game.cs" />
-    <Compile Include="Models\League.cs" />
-    <Compile Include="Models\Person.cs" />
-    <Compile Include="Models\Player.cs" />
-    <Compile Include="Models\Referee.cs" />
-    <Compile Include="Models\Team.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
@@ -267,6 +261,10 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SoccerStats.DataModels\SoccerStats.DataModels.csproj">
+      <Project>{246f599d-4f5e-44cd-b6ec-1502bb812fb0}</Project>
+      <Name>SoccerStats.DataModels</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SoccerStats.Data\SoccerStats.Data.csproj">
       <Project>{475112f8-c1da-41d9-8e1d-f6c92fa13338}</Project>
       <Name>SoccerStats.Data</Name>

@@ -8,3 +8,5 @@ C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\EntityFra
 C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.Data\obj\Debug\SoccerStats.Data.dll
 C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.Data\obj\Debug\SoccerStats.Data.pdb
+C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\SoccerStats.DataModels.dll
+C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\SoccerStats.DataModels.pdb
