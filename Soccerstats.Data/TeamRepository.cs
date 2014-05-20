@@ -12,10 +12,11 @@ namespace SoccerStats.Data
     {
         Context db = new Context();
 
-        public IQueryable<League> GetLeagues()
+        public IQueryable<Team>Leagues()
         {
-            return db.Leagues;
+            return db.Teams;
         }
+
 
     }
 }
