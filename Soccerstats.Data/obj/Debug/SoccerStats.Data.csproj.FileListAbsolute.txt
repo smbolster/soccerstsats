@@ -1,0 +1,10 @@
+C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.Data\obj\Debug\SoccerStats.Data.csprojResolveAssemblyReference.cache
+C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\SoccerStats.Data.dll.config
+C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\SoccerStats.Data.dll
+C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\SoccerStats.Data.pdb
+C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\EntityFramework.dll
+C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\EntityFramework.xml
+C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.Data\obj\Debug\SoccerStats.Data.dll
+C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.Data\obj\Debug\SoccerStats.Data.pdb
