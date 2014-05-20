@@ -18,7 +18,7 @@ namespace SoccerStats.Data
         public DbSet<Player> Players { get; set; }
         public DbSet<Referee> Referees { get; set; }
         public DbSet<Game> Games { get; set; }
-
+        public DbSet<Organization> Organizations { get; set; }
 
     }
 }

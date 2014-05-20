@@ -30,5 +30,15 @@ namespace SoccerStats.Controllers
 
             return Request.CreateResponse(HttpStatusCode.OK, teams);
         }
+
+        [Route("{id}")]
+        public HttpResponseMessage GetTeam(int id)
+        {
+            Team team1 = new Team() { Id = 1, TeamName = "Team 1" };
+            team1.Players.Add(new Player() { FirstName = "Sean", Id = 1, LastName = "Test1", MiddleName = "", Number = "2" });
+            team1.Players.Add(new Player() { FirstName = "Mike", Id = 2, LastName = "Tester", MiddleName = "", Number = "3" });
+            team1.Players.Add(new Player() { FirstName = "Sean", Id = 3, LastName = "Test2", MiddleName = "", Number = "4" });
+            return Request.CreateResponse(HttpStatusCode.OK, team1); 
+        }
     }
 }
