@@ -11,7 +11,8 @@ namespace SoccerStats.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
-
+            //just a test
+            
             return View();
         }
     }
