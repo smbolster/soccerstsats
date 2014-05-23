@@ -8,7 +8,14 @@ namespace SoccerStats.DataModels
 {
     public class Referee : Person
     {
-        public int RefId { get; set; }
+        public Referee()
+        {
+            this.Games = new HashSet<Game>();
+        }
+    
+        public int OrgId { get; set; }
+        public virtual ICollection<Game> Games { get; set; }
+        public virtual Organization Organization { get; set; }
 
     }
 }

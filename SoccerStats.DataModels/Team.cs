@@ -14,7 +14,7 @@ namespace SoccerStats.DataModels
         }
         public int Id { get; set; }
         public string TeamName { get; set; }
-        public List<Player> Players { get; set; }
+        public virtual ICollection<Player> Players { get; set; }
 
     }
 }

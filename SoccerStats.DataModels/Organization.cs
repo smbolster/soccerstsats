@@ -8,7 +8,18 @@ namespace SoccerStats.DataModels
 {
     public class Organization
     {
+        public Organization()
+        {
+            this.Leagues = new List<League>();
+            this.Players = new List<Player>();
+            this.Referees = new List<Referee>();
+        }
+
         public int OrgID { get; set; }
-        public List<League> Leagues { get; set; }
+        public string Name { get; set; }
+
+        public virtual ICollection<League> Leagues { get; set; }
+        public virtual ICollection<Player> Players { get; set; }
+        public virtual ICollection<Referee> Referees { get; set; }
     }
 }

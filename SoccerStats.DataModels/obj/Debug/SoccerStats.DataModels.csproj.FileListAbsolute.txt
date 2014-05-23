@@ -3,3 +3,8 @@ C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.DataModels\bin\Debug\Soc
 C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.DataModels\obj\Debug\SoccerStats.DataModels.csprojResolveAssemblyReference.cache
 C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.DataModels\obj\Debug\SoccerStats.DataModels.dll
 C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.DataModels\obj\Debug\SoccerStats.DataModels.pdb
+D:\sbolster\skydrive\MyDocs\GitHub\soccerstsats\SoccerStats.DataModels\bin\Debug\SoccerStats.DataModels.dll
+D:\sbolster\skydrive\MyDocs\GitHub\soccerstsats\SoccerStats.DataModels\bin\Debug\SoccerStats.DataModels.pdb
+D:\sbolster\skydrive\MyDocs\GitHub\soccerstsats\SoccerStats.DataModels\obj\Debug\SoccerStats.DataModels.csprojResolveAssemblyReference.cache
+D:\sbolster\skydrive\MyDocs\GitHub\soccerstsats\SoccerStats.DataModels\obj\Debug\SoccerStats.DataModels.dll
+D:\sbolster\skydrive\MyDocs\GitHub\soccerstsats\SoccerStats.DataModels\obj\Debug\SoccerStats.DataModels.pdb

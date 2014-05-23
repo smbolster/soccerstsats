@@ -10,3 +10,15 @@ C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.Data\obj\Debug\SoccerSta
 C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.Data\obj\Debug\SoccerStats.Data.pdb
 C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\SoccerStats.DataModels.dll
 C:\Users\Sean\Documents\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\SoccerStats.DataModels.pdb
+D:\sbolster\skydrive\MyDocs\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\SoccerStats.Data.dll.config
+D:\sbolster\skydrive\MyDocs\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\SoccerStats.Data.dll
+D:\sbolster\skydrive\MyDocs\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\SoccerStats.Data.pdb
+D:\sbolster\skydrive\MyDocs\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\EntityFramework.dll
+D:\sbolster\skydrive\MyDocs\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\sbolster\skydrive\MyDocs\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\SoccerStats.DataModels.dll
+D:\sbolster\skydrive\MyDocs\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\SoccerStats.DataModels.pdb
+D:\sbolster\skydrive\MyDocs\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\EntityFramework.xml
+D:\sbolster\skydrive\MyDocs\GitHub\soccerstsats\SoccerStats.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\sbolster\skydrive\MyDocs\GitHub\soccerstsats\SoccerStats.Data\obj\Debug\SoccerStats.Data.csprojResolveAssemblyReference.cache
+D:\sbolster\skydrive\MyDocs\GitHub\soccerstsats\SoccerStats.Data\obj\Debug\SoccerStats.Data.dll
+D:\sbolster\skydrive\MyDocs\GitHub\soccerstsats\SoccerStats.Data\obj\Debug\SoccerStats.Data.pdb
