@@ -16,7 +16,14 @@ namespace SoccerStats.Controllers
         [Route("")]
         public HttpResponseMessage Get()
         {
-            List<Team> teams  = new List<Team>();
+            List<Team> teams = GetMockTeams();
+
+            return Request.CreateResponse(HttpStatusCode.OK, teams);
+        }
+
+        private List<Team> GetMockTeams()
+        {
+            List<Team> teams = new List<Team>();
             Team team1 = new Team() { Id = 1, TeamName = "Team 1" };
             team1.Players.Add(new Player() { FirstName = "Sean", Id = 1, LastName = "Test1", MiddleName = "", Number = "2" });
             team1.Players.Add(new Player() { FirstName = "Mike", Id = 2, LastName = "Tester", MiddleName = "", Number = "3" });
@@ -28,7 +35,7 @@ namespace SoccerStats.Controllers
             teams.Add(team1);
             teams.Add(team2);
 
-            return Request.CreateResponse(HttpStatusCode.OK, teams);
+            return teams;
         }
 
         [Route("{id}")]
@@ -39,6 +46,21 @@ namespace SoccerStats.Controllers
             team1.Players.Add(new Player() { FirstName = "Mike", Id = 2, LastName = "Tester", MiddleName = "", Number = "3" });
             team1.Players.Add(new Player() { FirstName = "Sean", Id = 3, LastName = "Test2", MiddleName = "", Number = "4" });
             return Request.CreateResponse(HttpStatusCode.OK, team1); 
+        }
+        [Route("teamPlayers/{teamId:int}")]
+        public HttpResponseMessage GetTeamPlayers(int teamId)
+        {
+            try
+            {
+                List<Team> teams = GetMockTeams();
+
+                return Request.CreateResponse(HttpStatusCode.OK, teams[0].Players);
+            }
+            catch (Exception ex)
+            {
+
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
+            }
         }
     }
 }
