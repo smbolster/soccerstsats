@@ -47,6 +47,7 @@ namespace SoccerStats.Controllers
             team1.Players.Add(new Player() { FirstName = "Sean", Id = 3, LastName = "Test2", MiddleName = "", Number = "4" });
             return Request.CreateResponse(HttpStatusCode.OK, team1); 
         }
+       
         [Route("teamPlayers/{teamId:int}")]
         public HttpResponseMessage GetTeamPlayers(int teamId)
         {
@@ -62,5 +63,7 @@ namespace SoccerStats.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
             }
         }
+
+       
     }
 }

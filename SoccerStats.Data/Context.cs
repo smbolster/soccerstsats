@@ -11,7 +11,7 @@ namespace SoccerStats.Data
     public class Context : DbContext
     {
         public Context()
-            : base()
+            : base("soccerStatsEntities")
         { }
         public DbSet<League> Leagues { get; set; }
         public DbSet<Team> Teams { get; set; }

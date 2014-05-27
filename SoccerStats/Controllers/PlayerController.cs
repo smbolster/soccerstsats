@@ -5,12 +5,19 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using SoccerStats.Data;
 
 namespace SoccerStats.Controllers
-{
+{ 
     [RoutePrefix("api/v1/player")]
     public class PlayerController : ApiController
     {
+        IRepository _repo;
+        public PlayerController(IRepository repo)
+        {
+            _repo = repo;
+        }
+
         [Route("")]
         public HttpResponseMessage Get()
         {
@@ -39,6 +46,18 @@ namespace SoccerStats.Controllers
             players.Add(new Player() { FirstName = "Sean", Id = 3, LastName = "Test2", MiddleName = "", Number = "4" });
             return players;
             
+        }
+
+        [Route("add")]
+        [HttpPost]
+        public HttpResponseMessage Post([FromBody] Player player)
+        {
+            //todo: switch this to dependency injection and a repo
+            Context db = new Context();
+            db.Players.Add(player);
+            db.SaveChanges();
+            return Request.CreateResponse(HttpStatusCode.OK);
+
         }
     }
 }

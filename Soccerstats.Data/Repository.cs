@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SoccerStats.Data
 {
-    public class Repository
+    public class Repository : SoccerStats.Data.IRepository
     {
         Context db = new Context();
         public IQueryable<Game> Games()
